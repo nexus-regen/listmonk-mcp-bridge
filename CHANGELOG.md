@@ -1,5 +1,85 @@
 # Changelog
 
+## [0.4.38](https://github.com/nexus-regen/listmonk-mcp-bridge/compare/v0.4.37...v0.4.38) (2026-10-01)
+
+
+### Features
+
+* add comprehensive type annotations for professional-grade code quality ([a563a9a](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/a563a9ae7bc3545c65d798753fca336d6299898b))
+* add data validation layer and campaign management ([2c38840](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/2c38840703edd0e6574d3cd6fbe2ae333f3b1c09))
+* add GitHub Actions workflow for MkDocs Material documentation ([8fc65fe](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/8fc65fe7d47f6cc9d45fe6e38c78587a7d73ad4e))
+* add GitHub Actions workflow for PyPI publishing ([37b3800](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/37b3800c93afe499b55cd9e63727799345c57d98))
+* add proper CLI support with --help and --version flags ([2862844](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/2862844f4eeb0a41cc0967ffde1289b768e38d57))
+* automate Listmonk API compatibility ([#69](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/69)) ([99608eb](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/99608eb0cf1ffe552ba4ee14f7937d8ff988393e))
+* complete list and template management tools and resources ([51f526b](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/51f526b946388b06adae94924e5f941106a99559))
+* media management, discovery tools, campaign editing, and API fixes ([c6f223a](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/c6f223a4c27a3df8d5f25da5314b91197c007dae))
+* migrate to MCP Python SDK v2 ([#62](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/62)) ([ee24f2e](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/ee24f2ee1b1720dee8f8e0fd3fcbd3b313fc5d65))
+
+
+### Bug Fixes
+
+* align tools with Listmonk API ([#66](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/66)) ([9cca080](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/9cca0800b940e7b0fb03393f47ab200467669a05))
+* auto-fix linting issues with ruff ([00a5a9c](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/00a5a9c5c004b6397940bb3803fcd1404d59a0a1))
+* automate security maintenance and current version reporting ([#73](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/73)) ([e15e205](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/e15e205a44ed6ae2d59299b56db4e1186d05ffac))
+* clean up whitespace and exception handling for linting compliance ([ffbd661](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/ffbd66154c3514569c3dff000757b3be5b80ee77))
+* cleanup resource leak and bump version to 0.1.0 ([2434a3d](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/2434a3d8fd9b97069136e36b670bc1b42251faba))
+* constrain MCP SDK to v1 ([#56](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/56)) ([6374508](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/6374508ca0e6e13a13559ff6a28870cce7ffec70))
+* **deps:** bump cryptography ([#49](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/49)) ([730cbae](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/730cbae8d56a2efd7d6b58c74778fdab59990f6c))
+* **deps:** bump GitPython to 3.1.50 ([fb017c2](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/fb017c2966be4d513585b4115d553e801a73c2b7))
+* **deps:** bump GitPython to 3.1.58 ([542b116](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/542b11656266f134f65177461026ee1fcfcb7b18))
+* **deps:** bump mcp in the python-security group across 1 directory ([#45](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/45)) ([6db2293](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/6db229354fa3fe39c0531616cef323786b7923ae))
+* **deps:** bump pydantic-settings ([#43](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/43)) ([8c6b739](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/8c6b7393a3069e851bbe7cb399200a626d2b4826))
+* **deps:** bump pyjwt in the python-security group across 1 directory ([#39](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/39)) ([d9c162d](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/d9c162da1318d575ecb67409b9542a4f3401816d))
+* **deps:** bump pymdown-extensions ([#51](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/51)) ([827dbc9](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/827dbc9117ec2ff094598503f185b3573b234735))
+* **deps:** bump starlette ([#37](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/37)) ([a3db0c4](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/a3db0c4b85257ee85b0bc1f0d17142918fe512be))
+* **deps:** bump the python-security group across 1 directory with 2 updates ([#35](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/35)) ([d4382cb](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/d4382cb9e7d75b0f94717441f581c8a8cb5a39ff))
+* **deps:** bump the python-security group across 1 directory with 2 updates ([#47](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/47)) ([46b953f](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/46b953f012a162069bfbdcb1ee4ecb476fa2af66))
+* **deps:** bump the python-security group across 1 directory with 3 updates ([#41](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/41)) ([83e23a4](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/83e23a4597ddd7f675f377b97778d716cb984c63))
+* **deps:** bump urllib3 in the python-security group across 1 directory ([#31](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/31)) ([620a46e](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/620a46e1217c40a9627851825c59b9b6273b38fa))
+* **deps:** patch security alerts and restore MCP compatibility checks ([#71](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/71)) ([e33be59](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/e33be590a77fa06c596073a380b973d720dd0c2d))
+* **deps:** refresh Python dependencies after security or compatibility failure ([#75](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/75)) ([8c9e573](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/8c9e573ba03dec48b594788fc5deb2e08fadd715))
+* guard docs deploy when pages is disabled ([0c4702a](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/0c4702a4bcd102892e8f3bad88211d139fbcdb0a))
+* harden dependency compatibility ([#58](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/58)) ([7540bb1](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/7540bb1f41bea2ebe4b1aebc48c3d12df4a87203))
+* install dev dependencies for linting and type checking ([7c279c2](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/7c279c29f365587ee18c7ef895b765fcd74d74a7))
+* prepare release lockfile before CI ([b22ce89](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/b22ce899d5ebed273fc7466fa4cb24e0ce089acc))
+* remove empty with block from PyPI publish workflow ([f5a9b3c](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/f5a9b3c3110843619847a290717625bda9893019))
+* remove unused client variable in upload_media ([3e1cf0d](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/3e1cf0d4d4d1dd49b075fa153a633435d0e1f1dd))
+* remove uv cache dependency on missing lock file ([6a1a997](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/6a1a99750b9fd8de14307dbd7e393a7bc12c5bf7))
+* repair release workflows ([a1e8903](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/a1e89030c6e6351e9a3998f4e2338bff8b966fa4))
+* resolve all remaining linting issues ([5aff5eb](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/5aff5eb416e837dc4c1e0ac4b4426219cd99cab8))
+* restore release metadata to 0.4.14 ([193eb23](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/193eb2304e57dc70f913e02f29e04eac0eee4f59))
+* use PUT for campaign status updates ([e983cce](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/e983cce817f4424587cc013b3d0539377a8c32ff))
+* use PUT for campaign status updates ([9c23a63](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/9c23a634ae4e528d684f3dc484891f84d39c09a8))
+
+
+### Dependencies
+
+* bump black from 25.1.0 to 26.3.1 ([#7](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/7)) ([c9351a3](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/c9351a30dbf31a5b51be05d502beb85171c793b8))
+* bump mcp from 1.11.0 to 1.27.0 ([#13](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/13)) ([2c54a24](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/2c54a249078e5002615152f5ddc2a41b0e13eb1d))
+* bump mkdocs-material from 9.6.16 to 9.7.6 ([#18](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/18)) ([e2219c6](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/e2219c68d3db69c4fd62fc52d49d900b34f6b57c))
+* bump pydantic-settings from 2.10.1 to 2.14.0 ([#11](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/11)) ([32863c2](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/32863c27254a334de50b359388c7c271f0974e35))
+* bump pygments from 2.19.2 to 2.20.0 ([#21](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/21)) ([7f8168c](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/7f8168cd73f533744cfc32439689b3baa5ef84f1))
+* bump pytest from 8.4.1 to 9.0.3 ([#15](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/15)) ([1cd5ef2](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/1cd5ef24ad8824523c8147e9ce51230d413be131))
+* bump pytest-httpx from 0.35.0 to 0.36.2 ([#16](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/16)) ([e2365cc](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/e2365ccef8ca5243c4f62364f6ba50b67c626961))
+* bump pytest-mock from 3.14.1 to 3.15.1 ([#10](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/10)) ([29671bc](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/29671bcf525ac424afd10d562b2a9729f6ec9aec))
+* bump requests from 2.32.4 to 2.33.0 ([#25](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/25)) ([0cfb72b](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/0cfb72b5196074ace503b6e1e66765f1da139acc))
+* bump ruff from 0.12.3 to 0.15.12 ([#14](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/14)) ([67be781](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/67be7810ebce04b3f96441e73b7dde24560a4c21))
+* bump typer from 0.16.0 to 0.25.0 ([#19](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/19)) ([fb3d439](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/fb3d439fb80ec7ecfd8f8691da6f4ce77c5be026))
+* bump urllib3 from 2.5.0 to 2.6.3 ([#26](https://github.com/nexus-regen/listmonk-mcp-bridge/issues/26)) ([4043844](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/404384439642672a235cb8b26f3d6c88a95c4ebf))
+* update vulnerable Python lockfile dependencies ([d2c0a1a](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/d2c0a1ae20d83ca997587ca78c1dfa322c401aa6))
+* update vulnerable starlette dependency ([9c056cc](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/9c056cc62754e078a836d816060af1c8dc09f1dd))
+
+
+### Documentation
+
+* add security policy ([127e67d](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/127e67d04c00295e4664833a1e0a95283e618079))
+* trigger workflow after enabling GitHub Pages ([ff22b5d](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/ff22b5d1c88cdca33dd4774f2818c18a20e597f0))
+* update docs and setup instructions ([a09eb64](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/a09eb641efacca8a39420eab73110b89f5e0730c))
+* update documentation and workflows ([9a75332](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/9a75332b6d9542e7bdf9f1aed7dcb419ff8b327d))
+* update project metadata and README ([7572eda](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/7572eda58fdde7fa21ed0030063331e090715d46))
+* update PyPI project description ([2a603ec](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/2a603ecdb7b5adc64ffefe0981223be2bbf04e79))
+* update README with production-ready positioning ([9207766](https://github.com/nexus-regen/listmonk-mcp-bridge/commit/9207766fb1ff98ef810a349477b8911ca8b8f2b1))
+
 ## [0.4.37](https://github.com/mnbro/listmonk-mcp-bridge/compare/v0.4.36...v0.4.37) (2026-09-30)
 
 
